@@ -1,0 +1,29 @@
+# Ignore build artifacts
+build/
+cmake-build-*/
+
+# Ignore data files (user-generated)
+data/preset_states/*.bin
+data/midis/*.mid
+data/outwav/*.wav
+data/outmeta/*.json
+
+# Keep directory structure
+!data/preset_states/.gitkeep
+!data/midis/.gitkeep
+!data/outwav/.gitkeep
+!data/outmeta/.gitkeep
+
+# Plugin cache
+plugin_cache.xml
+
+# IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
